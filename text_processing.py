@@ -81,5 +81,6 @@ def no_vowels(input_string):
                 output_string = output_string.replace(i,"")
             else:
                 break
+            
     no_vowel_string = output_string
     return no_vowel_string
