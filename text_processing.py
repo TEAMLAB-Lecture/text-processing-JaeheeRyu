@@ -46,7 +46,7 @@ def normalize(input_string):
             break
     while True:
         if("  " in output_string):
-            output_string.replace("  "," ")
+            output_string = output_string.replace("  "," ")
         else:
             break
     normalized_string = output_string
@@ -78,7 +78,7 @@ def no_vowels(input_string):
     for i in ['a', 'b', 'c', 'd', 'e']:
         while True:
             if(i in output_string):
-                output_string.replace(i,"")
+                output_string = output_string.replace(i,"")
             else:
                 break
     no_vowel_string = output_string
